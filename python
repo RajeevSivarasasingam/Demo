@@ -1,0 +1,15 @@
+ # sample.py
+
+def greet(name: str) -> str:
+    """Return a greeting message for the given name."""
+    return f"Hello, {name}! Welcome to your Python project."
+
+def add_numbers(a: int, b: int) -> int:
+    """Return the sum of two numbers."""
+    return a + b
+
+if __name__ == "__main__":
+    # Example usage
+    print(greet("Alice"))
+    result = add_numbers(5, 7)
+    print(f"The sum of 5 and 7 is {result}")
