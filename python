@@ -16,3 +16,8 @@ if __name__ == "__main__":
 
 thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(thistuple)
+
+
+thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
