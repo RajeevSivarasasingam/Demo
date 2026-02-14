@@ -13,3 +13,6 @@ if __name__ == "__main__":
     print(greet("Alice"))
     result = add_numbers(5, 7)
     print(f"The sum of 5 and 7 is {result}")
+
+thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+print(thistuple)
