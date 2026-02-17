@@ -14,10 +14,31 @@ if __name__ == "__main__":
     result = add_numbers(5, 7)
     print(f"The sum of 5 and 7 is {result}")
 
+    print("-------------------------1-------------------------")
+
+# Lists
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+
+for x in fruits:
+  if "e" in x:              #check if the letter "e" is present in the fruit name
+    newlist.append(x)
+
+print(newlist)
+ 
+# List comprehension
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(newlist)
+
+# Tuples
 thistuple = ("apple", "banana", "cherry", "apple", "cherry")
 print(thistuple)
 
-
+# Accessing tuple items
+print(thistuple[1])
 thistuple = ("apple", "banana", "cherry")
 for x in thistuple:
   print(x)
