@@ -25,4 +25,18 @@ my_tuple = ("apple", "banana", "cherry")
 repeated_tuple = my_tuple * 2
 print(repeated_tuple)
 
-    
+# You can access tuple items by referring to their index number, inside square brackets.
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])         # Output: "banana" (index starts at 0)
+
+# -1 refers to the last item, -2 refers to the second last item, and so on.
+print(thistuple[-1])        # Output: "cherry"
+print(thistuple[-2])        # Output: "banana"
+
+# You can specify a range of indexes by specifying where to start and where to end the range.
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[:4]) # Output: ('apple', 'banana', 'cherry', 'orange') (from index 0 to index 3)
+
+# If you omit the start value, the range will start at the first item, and if you omit the end value, the range will go to the end of the tuple.
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[2:])    # Output: ('cherry', 'orange', 'kiwi', 'melon', 'mango') (from index 2 to the end of the tuple)
