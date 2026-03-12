@@ -18,5 +18,19 @@ print("########")
 thisdict = dict(name = "John", age = 36, country = "Norway")    # another way to create a dictionary using the dict() constructor
 print(thisdict)
 
-thisdict.update({"color": "red"})
+thisdict.update({"color": "red"}) # the update() method adds a new key-value pair to the dictionary
 print(thisdict)
+
+food={
+    "fruit": "apple",
+    "vegetable": "carrot",
+    "meat": "chicken"
+ }
+food.pop("meat") # the pop() method removes the item with the specified key name, and returns the value. If the key does not exist, it raises a KeyError.
+print(food)
+
+for x in food:
+  print(food[x]) # this will print the values of the dictionary
+
+for x in food.values():
+  print(x)
