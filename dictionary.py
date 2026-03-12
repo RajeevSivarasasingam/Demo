@@ -18,3 +18,5 @@ print("########")
 thisdict = dict(name = "John", age = 36, country = "Norway")    # another way to create a dictionary using the dict() constructor
 print(thisdict)
 
+thisdict.update({"color": "red"})
+print(thisdict)
