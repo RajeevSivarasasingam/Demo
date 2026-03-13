@@ -40,3 +40,4 @@ print(thistuple[:4]) # Output: ('apple', 'banana', 'cherry', 'orange') (from ind
 # If you omit the start value, the range will start at the first item, and if you omit the end value, the range will go to the end of the tuple.
 thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 print(thistuple[2:])    # Output: ('cherry', 'orange', 'kiwi', 'melon', 'mango') (from index 2 to the end of the tuple)
+
