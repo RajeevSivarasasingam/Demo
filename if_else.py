@@ -13,3 +13,6 @@ elif a == b:
     print("a is equal to b")    
 else:
     print("a is not greater than b and not equal to b")
+
+
+# Add logical operators code (AND,OR)
