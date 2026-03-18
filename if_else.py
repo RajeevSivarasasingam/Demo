@@ -13,3 +13,10 @@ elif a == b:
     print("a is equal to b")    
 else:
     print("a is not greater than b and not equal to b")
+
+
+a=500
+b=100
+if a > b and a < 1000: # here we are using the logical operator "and" to check if both conditions are true
+    print("a is greater than b and less than 1000")
+    
