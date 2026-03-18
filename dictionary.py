@@ -34,3 +34,8 @@ for x in food:
 
 for x in food.values():
   print(x)
+
+for y in food.keys(): # this will print the keys of the dictionary(fruit, vegetable, meat)
+  print(y)
+
+  
