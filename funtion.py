@@ -25,3 +25,8 @@ def my_function(a, b, /, *, c, d):
 
 result = my_function(5, 10, c = 15, d = 20)
 print(result)
+
+def my_function2(name, /):
+  print("Hello", name)
+
+my_function2("Emil")
