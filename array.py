@@ -7,3 +7,9 @@ print(y) # this will print "Volvo"
 z = cars[2]
 print(z) # this will print "BMW"
 
+for x in cars:
+  print(x)
+
+  cars.append("Honda")
+  cars.pop(1)
+  
