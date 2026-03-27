@@ -12,4 +12,13 @@ for x in cars:
 
   cars.append("Honda")
   cars.pop(1)
+  print(cars)
+
+  cars.insert(1, "Toyota")
+  print(cars)
+  cars.remove("Ford")
+  print(cars)
+  
+
+
   
