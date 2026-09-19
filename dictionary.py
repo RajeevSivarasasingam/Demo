@@ -28,6 +28,9 @@ food={
  }
 food.pop("meat") # the pop() method removes the item with the specified key name, and returns the value. If the key does not exist, it raises a KeyError.
 print(food)
+food.popitem() # the popitem() method removes the last inserted key-value pair from the dictionary, and returns it as a tuple. If the dictionary is empty, it raises a KeyError.
+print(food)
+
 
 for x in food:
   print(food[x]) # this will print the values of the dictionary
@@ -38,4 +41,5 @@ for x in food.values():
 for y in food.keys(): # this will print the keys of the dictionary(fruit, vegetable, meat)
   print(y)
 
-  
+
+food.values() # this will return a view object that displays a list of all the values in the dictionary
