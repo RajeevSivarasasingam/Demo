@@ -20,3 +20,14 @@ b=100
 if a > b and a < 1000: # here we are using the logical operator "and" to check if both conditions are true
     print("a is greater than b and less than 1000")
     
+num=input("Enter a number: ")
+if int(num) % 2 == 0:
+    print(f"{num} is an even number")   
+else:
+    print(f"{num} is not an even number")   
+
+
+# if age >= 18: print("You are eligible to vote")
+
+
+
