@@ -1,6 +1,9 @@
 
 
 # Sets are used to store multiple items in a single variable.
+
+
+
 thisset = {"apple", "banana", "cherry"}
 print(thisset)
 
@@ -17,3 +20,4 @@ print(thisset)
 #can store different data types in a set
 set1 = {"abc", 34, True, 40, "male"}
 
+  
